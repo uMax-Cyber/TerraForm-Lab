@@ -1,3 +1,5 @@
+[English](README.md) | [Русский](README.ru.md)
+
 [![CI](https://github.com/uMax-Cyber/TerraForm-Lab/actions/workflows/ci.yml/badge.svg)](https://github.com/uMax-Cyber/TerraForm-Lab/actions/workflows/ci.yml)
 
 # TerraForm Lab
