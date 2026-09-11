@@ -2,6 +2,8 @@
 
 [![CI](https://github.com/uMax-Cyber/TerraForm-Lab/actions/workflows/ci.yml/badge.svg)](https://github.com/uMax-Cyber/TerraForm-Lab/actions/workflows/ci.yml)
 
+![Demo](screenshots/demo.svg)
+
 # TerraForm Lab
 
 Infrastructure as Code for Proxmox VE: Terraform modules for VM provisioning, network configuration, and multi-node orchestration. Includes cloud-init integration and golden-template workflows.
