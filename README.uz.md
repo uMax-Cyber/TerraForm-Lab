@@ -12,11 +12,11 @@
 
 # TerraForm Lab
 
-Proxmox VE uchun Infrastructure as Code: virtual mashinalarni yaratish, tarmoq sozlash va koʻp nodli orkestratsiya uchun Terraform modullari. Cloud-init integratsiyasi va oltin shablon (golden-template) workflowlarini oʻz ichiga oladi.
+Proxmox VE uchun Infrastructure as Code: VM yaratish, tarmoq sozlash va koʻp nodli orkestratsiyani tayyor Terraform modullari bilan bajaradi. Cloud-init integratsiyasi va golden-template workflow-lari ham mavjud.
 
 ## ℹ️ Legacy / oʻquv loyihasi
 
-Bu Proxmox VE bilan Terraform boʻyicha erta eksperiment, tarixiy maqsadda saqlanadi — uy laboratoriyasi uchun birinchi IaC modullari shu qumloq (sandbox) muhitida ishlab chiqilgan va sinovdan oʻtkazilgan. Faol qoʻllab-quvvatlanmaydi. Dolzarb infratuzilma avtomatlashtirishi uchun **ProxmOps** loyihasiga qarang.
+Bu — Proxmox VE bilan Terraformni oʻrganish davomidagi erta eksperiment, tarixiy maqsadda saqlanadi. Uy laboratoriyasi uchun birinchi IaC modullari aynan shu sandbox-da ishlab chiqilgan va sinalgan. Loyiha endi faol qoʻllab-quvvatlanmaydi: dolzarb infratuzilma avtomatlashtirilishi **ProxmOps** loyihasida davom ettirilgan.
 
 ## Tez boshlash
 
@@ -39,11 +39,11 @@ module "webserver" {
 ## Modullar
 
 ### proxmox-vm
-Cloud-init shablonidan virtual mashina yaratadi:
-- Oltin shablondan toʻliq klonlash
-- Cloud-init: foydalanuvchi, parol, statik IP, SSH kalitlar
-- Diskni kengaytirish
-- QEMU guest-agent yoqilgan
+Cloud-init shablondan VM yaratadi:
+- Golden template-dan toʻliq klonlash
+- Cloud-init bilan foydalanuvchi, parol, statik IP va SSH kalitlarni sozlash
+- Diskni kerakli hajmgacha kengaytirish
+- QEMU guest-agent yoqilgan holda keladi
 
 ## Stack
 - Terraform >= 1.5
