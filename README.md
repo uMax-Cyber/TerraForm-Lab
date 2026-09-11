@@ -14,6 +14,10 @@
 
 Infrastructure as Code for Proxmox VE: Terraform modules for VM provisioning, network configuration, and multi-node orchestration. Includes cloud-init integration and golden-template workflows.
 
+## ℹ️ Legacy / Lab Project
+
+This is an early Terraform-on-Proxmox experiment, kept for historical reference — a sandbox where the first IaC modules for the home lab were developed and battle-tested. It is not actively maintained. For up-to-date infrastructure automation, see the **ProxmOps** project.
+
 ## Quick Start
 
 ```hcl

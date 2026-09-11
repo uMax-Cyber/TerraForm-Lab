@@ -3,16 +3,16 @@
 <rect width="800" height="30" fill="#181825" rx="8"><animate attributeName="opacity" values="1;0.9;1" dur="4s" repeatCount="indefinite"/></rect>
 <circle cx="20" cy="15" r="6" fill="#f38ba8"/><circle cx="40" cy="15" r="6" fill="#f9e2af"/><circle cx="60" cy="15" r="6" fill="#a6e3a1"/>
 <text x="400" y="20" text-anchor="middle" fill="#cdd6f4" font-family="monospace" font-size="12">terraform plan</text>
-<text x="15" y="55" fill="#a6e3a1" font-family="monospace" font-size="13">$ terraform plan</text>
-<text x="15" y="85" fill="#89b4fa" font-family="monospace" font-size="14">Terraform will perform the following actions:</text>
-<text x="15" y="115" fill="#cdd6f4" font-family="monospace" font-size="14">  # module.webserver.proxmox_virtual_environment_vm.vm</text>
-<text x="15" y="140" fill="#cdd6f4" font-family="monospace" font-size="14">  + name       = "web-01"</text>
-<text x="15" y="165" fill="#cdd6f4" font-family="monospace" font-size="14">  + vm_id      = 201</text>
-<text x="15" y="190" fill="#cdd6f4" font-family="monospace" font-size="14">  + cores      = 2</text>
-<text x="15" y="215" fill="#cdd6f4" font-family="monospace" font-size="14">  + memory     = 2048</text>
-<text x="15" y="240" fill="#cdd6f4" font-family="monospace" font-size="14">  + disk       = 20GB (scsi0)</text>
-<text x="15" y="265" fill="#a6e3a1" font-family="monospace" font-size="14">Plan: 1 to add, 0 to change, 0 to destroy.</text>
-<rect x="15" y="430" width="10" height="18" fill="#a6e3a1">
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+<text x="15" y="55" fill="#a6e3a1" font-family="monospace" font-size="13" opacity="0">$ terraform plan<animate attributeName="opacity" values="0;1" begin="0.3s" dur="0.4s" fill="freeze"/></text>
+<text x="15" y="85" fill="#89b4fa" font-family="monospace" font-size="14" opacity="0">Terraform will perform the following actions:<animate attributeName="opacity" values="0;1" begin="1s" dur="0.4s" fill="freeze"/></text>
+<text x="15" y="115" fill="#cdd6f4" font-family="monospace" font-size="14" opacity="0">  # module.webserver.proxmox_virtual_environment_vm.vm<animate attributeName="opacity" values="0;1" begin="1.7s" dur="0.4s" fill="freeze"/></text>
+<text x="15" y="140" fill="#cdd6f4" font-family="monospace" font-size="14" opacity="0">  + name       = "web-01"<animate attributeName="opacity" values="0;1" begin="2.4s" dur="0.4s" fill="freeze"/></text>
+<text x="15" y="165" fill="#cdd6f4" font-family="monospace" font-size="14" opacity="0">  + vm_id      = 201<animate attributeName="opacity" values="0;1" begin="3.1s" dur="0.4s" fill="freeze"/></text>
+<text x="15" y="190" fill="#cdd6f4" font-family="monospace" font-size="14" opacity="0">  + cores      = 2<animate attributeName="opacity" values="0;1" begin="3.8s" dur="0.4s" fill="freeze"/></text>
+<text x="15" y="215" fill="#cdd6f4" font-family="monospace" font-size="14" opacity="0">  + memory     = 2048<animate attributeName="opacity" values="0;1" begin="4.5s" dur="0.4s" fill="freeze"/></text>
+<text x="15" y="240" fill="#cdd6f4" font-family="monospace" font-size="14" opacity="0">  + disk       = 20GB (scsi0)<animate attributeName="opacity" values="0;1" begin="5.2s" dur="0.4s" fill="freeze"/></text>
+<text x="15" y="265" fill="#a6e3a1" font-family="monospace" font-size="14" opacity="0">Plan: 1 to add, 0 to change, 0 to destroy.<animate attributeName="opacity" values="0;1" begin="5.9s" dur="0.4s" fill="freeze"/></text>
+<rect x="360" y="251" width="10" height="16" fill="#a6e3a1" opacity="0">
+    <animate attributeName="opacity" values="1;0;1" begin="6.4s" dur="1s" repeatCount="indefinite"/>
   </rect>
 </svg>
