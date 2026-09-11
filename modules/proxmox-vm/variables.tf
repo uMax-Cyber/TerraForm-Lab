@@ -1,13 +1,59 @@
-variable "node_name"    { type = string }
-variable "template_id"  { type = number }
-variable "vm_name"      { type = string }
-variable "vmid"         { type = number }
-variable "cores"        { type = number, default = 2 }
-variable "memory_mb"    { type = number, default = 2048 }
-variable "disk_size_gb" { type = number, default = 20 }
-variable "datastore"    { type = string, default = "local-lvm" }
-variable "ip_address"   { type = string }
-variable "prefix"       { type = string, default = "24" }
-variable "gateway"      { type = string }
-variable "username"     { type = string, default = "ubuntu" }
-variable "password"     { type = string, sensitive = true }
+variable "node_name" {
+  description = "Target Proxmox node name"
+  type        = string
+}
+variable "template_id" {
+  description = "Golden template VMID to clone from"
+  type        = number
+}
+variable "vm_name" {
+  description = "Name for the new VM"
+  type        = string
+}
+variable "vmid" {
+  description = "VMID for the new VM"
+  type        = number
+}
+variable "cores" {
+  description = "CPU cores"
+  type        = number
+  default     = 2
+}
+variable "memory_mb" {
+  description = "Memory in MB"
+  type        = number
+  default     = 2048
+}
+variable "disk_size_gb" {
+  description = "Disk size in GB"
+  type        = number
+  default     = 20
+}
+variable "datastore" {
+  description = "Storage datastore ID"
+  type        = string
+  default     = "local-lvm"
+}
+variable "ip_address" {
+  description = "Static IP address"
+  type        = string
+}
+variable "prefix" {
+  description = "Network prefix length"
+  type        = string
+  default     = "24"
+}
+variable "gateway" {
+  description = "Default gateway"
+  type        = string
+}
+variable "username" {
+  description = "Cloud-init username"
+  type        = string
+  default     = "ubuntu"
+}
+variable "password" {
+  description = "Cloud-init password"
+  type        = string
+  sensitive   = true
+}
