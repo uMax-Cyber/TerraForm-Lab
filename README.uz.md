@@ -1,12 +1,14 @@
 <div align="center">
 
-**🇬🇧 [English](README.md) · 🇷🇺 [Русский](README.ru.md) · 🇺🇿 [Oʻzbekcha](README.uz.md)**
+[![English](https://img.shields.io/badge/README-English-blue)](README.md)
+[![Русский](https://img.shields.io/badge/README-Русский-red)](README.ru.md)
+[![Oʻzbekcha](https://img.shields.io/badge/README-Oʻzbekcha-green)](README.uz.md)
 
 </div>
 
 # TerraForm Lab — Infrastructure as Code
 
-Proxmox VE uchun Terraform modullari: cloud-init VM yaratish, multi-node orkestratsiya.
+Proxmox VE uchun Terraform modullari: cloud-init bilan VM yaratish, disk boshqaruvi va koʻp nodli orkestratsiya.
 
 ## Skrinshot
 
@@ -14,12 +16,14 @@ Proxmox VE uchun Terraform modullari: cloud-init VM yaratish, multi-node orkestr
 
 ## 📬 Aloqa
 
-Savollar bormi? Yozing: **[allumaxmail@gmail.com](mailto:allumaxmail@gmail.com)**
+Savollaringiz bormi? Yozing: **[allumaxmail@gmail.com](mailto:allumaxmail@gmail.com)**
 
 ---
 
 <div align="center">
 
-**🇬🇧 [English](README.md) · 🇷🇺 [Русский](README.ru.md) · 🇺🇿 [Oʻzbekcha](README.uz.md)**
+[![English](https://img.shields.io/badge/README-English-blue)](README.md)
+[![Рус](https://img.shields.io/badge/README-Русский-red)](README.ru.md)
+[![Oʻzbekcha](https://img.shields.io/badge/README-Oʻzbekcha-green)](README.uz.md)
 
 </div>
