@@ -6,11 +6,20 @@
 
 # TerraForm Lab — Infrastructure as Code
 
-Terraform-модули для Proxmox VE: провижининг VM с cloud-init, изменение размера дисков, multi-node оркестрация.
+Terraform-модули для Proxmox VE: провижининг VM с cloud-init, multi-node оркестрация, золотые шаблоны.
 
 ## Скриншот
 
 ![Демонстрация](screenshots/demo.svg)
 
-## Лицензия
-MIT
+## 📬 Контакты
+
+Вопросы? Пишите: **[allumaxmail@gmail.com](mailto:allumaxmail@gmail.com)**
+
+---
+
+<div align="center">
+
+**🇬🇧 [English](README.md) · 🇷🇺 [Русский](README.ru.md) · 🇺🇿 [Oʻzbekcha](README.uz.md)**
+
+</div>
